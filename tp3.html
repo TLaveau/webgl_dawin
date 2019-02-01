@@ -1,0 +1,49 @@
+<html>
+  <body onload='main()'>
+      <canvas id='dawin-webgl' width=800 height=800>
+        Utilisez un navigateur compatible avec WebGL
+      </canvas>
+      
+      <div style="float: right;">
+        <h3>Parametre</h3>
+        
+        <h5>Rotation</h5>
+
+        <span>X</span>
+        <p>
+          <input type="range" id="rotateX" min="-3.14" max="3.14" step="0.01"/>
+        </p>
+
+        <span>Y</span>
+        <p>
+          <input type="range" id="rotateY" min="-3.14" max="3.14" step="0.01"/>
+        </p>
+
+        <span>Z</span>
+        <p>
+          <input type="range" id="rotateZ" min="-3.14" max="3.14" step="0.01"/>
+        </p>
+
+        <h5>Translation</h5>
+
+        <span>X</span>
+        <p>
+          <input type="range" id="translateX" min="-10" max="10" step="0.1"/>
+        </p>
+
+        <span>Y</span>
+        <p>
+          <input type="range" id="translateY" min="-10" max="10" step="0.1"/>
+        </p>
+
+        <span>Z</span>
+        <p>
+          <input type="range" id="translateZ" min="-10" max="10" step="0.1"/>
+        </p>
+      </div>
+      
+    <script src='gl-matrix-min.js'></script>
+    <script src='tp3.js'></script>
+          
+  </body>
+</html>	
